@@ -1,0 +1,877 @@
+/*------------------------------------------------
+Global Styles
+-----------------------------------------------*/
+
+body {
+	font-family: "Jost", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #1b1b1b;
+	line-height: 1.5;
+}
+
+.theme-wrapper {
+	max-width: 1400px;
+	margin: 30px auto;
+}
+
+.theme-wrapper .left {
+	flex-basis: 20%;
+	max-width: 20%;
+	margin-left: 5%;
+}
+
+.theme-wrapper .right {
+	flex-basis: 70%;
+	max-width: 70%;
+	margin-right: 5%;
+}
+
+.is-flex {
+	display: flex;
+}
+
+.is-center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.is-reverse {
+    flex-direction: row-reverse;
+}
+
+.is-relative {
+    position: relative;
+}
+
+.bg-center {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.is-white {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #757575;
+}
+
+
+.proj-content {
+	margin: 5px;
+}
+
+.proj-link {
+	margin: 10px;
+}
+
+.img-col {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.proj-1 {
+    background-image: url(../images/proj-1/proj-1.jpg);
+}
+
+.proj-2 {
+    background-image: url(../images/proj-2/proj-2.jpg);
+}
+
+.proj-3 {
+    background-image: url(../images/proj-3/proj-3.jpg);
+}
+
+.proj-4 {
+    background-image: url(../images/proj-4/proj-4.jpg);
+}
+
+.proj-5 {
+    background-image: url(../images/proj-5/proj-5.jpg);
+}
+
+.proj-6 {
+    background-image: url(../images/proj-6/proj-6.jpg);
+}
+
+
+/*
+|------------------------------------------
+|  Typography
+|------------------------------------------
+*/
+
+h1 {
+	font-weight: 400;
+	font-size: 30px;
+	color: #393939;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #393939;
+}
+
+h4 {
+	font-family: "Forum", serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #757575;
+}
+
+/*
+|------------------------------------------
+|  The Grid
+|------------------------------------------
+*/
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+}
+
+.col-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+}
+
+.col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+
+.col-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+}
+
+.col-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+}
+
+/*------------------------------------------------
+Header
+-----------------------------------------------*/
+
+.header img {
+	width: 25px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.header .logo {
+	margin: 30px 0;
+}
+
+.header .logo img {
+	width: 90px;
+	height: auto;
+}
+
+.nav-1 > a {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.gn .nav-1 {
+	margin-bottom: 25px;
+}
+
+.gn .nav-2 {
+	margin: 10px 0;
+}
+
+.gn a {
+	transition: color 0.35s ease;
+}
+
+.gn a:hover {
+	color: #1b1b1b;
+}
+
+.gn .active {
+	color: #1b1b1b;
+}
+
+.header .social {
+	margin-top: 30px;
+}
+
+/*------------------------------------------------
+Home - Projects
+-----------------------------------------------*/
+
+.proj-list .img-col {
+	height: 250px;
+}
+
+.proj-list .overlay {
+	height: 250px;
+	transition: background 0.35s ease;
+}
+
+.proj-list .overlay:hover {
+	background: rgba(0,0,0,0.25);
+}
+
+.proj-list .proj-title {
+	margin: 240px 0 5px;
+}
+
+.proj-list p {
+	font-family: "Forum", serif;
+	font-size: 14px;
+}
+
+
+/*------------------------------------------------
+About
+-----------------------------------------------*/
+
+.about {
+	padding: 30px 0;
+	justify-content: center;
+}
+
+.about .container {
+	width: 40vw;
+}
+
+.about h2 {
+	margin-bottom: 10px;
+}
+
+.about-right {
+	padding-left: 40px;
+}
+
+.about-left p {
+	margin-top: 20px;
+}
+
+.about .skill {
+	margin-bottom: 50px;
+}
+
+.about .education {
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------------
+Gallery
+-----------------------------------------------*/
+
+.gallery h1 {
+	margin: 20px 0;
+}
+
+.gallery .img-col {
+	height: 400px;
+}
+
+.gallery .overlay {
+	height: 400px;
+	transition: background 0.35s ease;
+}
+
+.gallery .overlay:hover {
+	background: rgba(0,0,0,0.25);
+}
+
+.gallery .proj-title {
+	margin: 390px 0 5px;
+}
+
+.gallery-1 {
+    background-image: url(../images/gallery/gallery-1.jpg);
+}
+
+.gallery-2 {
+    background-image: url(../images/gallery/gallery-2.jpg);
+}
+
+.gallery-3 {
+    background-image: url(../images/gallery/gallery-3.jpg);
+}
+
+.gallery-4 {
+    background-image: url(../images/gallery/gallery-4.jpg);
+}
+
+.gallery-5 {
+    background-image: url(../images/gallery/gallery-5.jpg);
+}
+
+.gallery-6 {
+    background-image: url(../images/gallery/gallery-6.jpg);
+}
+/*------------------------------------------------
+Contact
+-----------------------------------------------*/
+
+.contact {
+	height: 500px;
+	margin: 30px auto;
+	justify-content: center;
+}
+
+.form {
+	width: 30vw;
+}
+
+.form .input {
+	margin: 15px 0;
+	width: 100%;
+	font-family: inherit;
+	font-weight: 300;
+}
+
+.button {
+	justify-content: right;
+}
+
+.btn {
+	width: 100px;
+	margin-top: 10px;
+	background: #fff;
+	border-radius: 6px;
+	border: 1px solid #393939;
+	font-family: inherit;
+	transition: color 0.35s ease;
+}
+
+.btn:hover {
+	background: #f5f5f5;
+}
+
+/*------------------------------------------------
+Project Page
+-----------------------------------------------*/
+
+.bnr {
+	min-height: 260px;
+	background: #f5f5f5;
+}
+
+.bnr .img-col {
+	margin-right: 40px;
+}
+
+.bnr-right {
+	padding: 35px 50px 30px 10px;
+}
+
+.bnr-right p {
+	margin-top: 20px;
+}
+
+.right .text {
+	margin: 30px 120px;
+}
+
+.right .text h2 {
+	margin-bottom: 10px;
+}
+
+.right .image-row {
+	height: 290px;
+}
+
+.right .image-row .img-col {
+	height: 290px;
+}
+
+.right li:not(:last-child) .img-col {
+	margin-right:10px;
+}
+
+.right .bullet {
+	margin-bottom: 5px;
+}
+
+.right .bullet li {
+	list-style: circle;
+	list-style-position: inside;
+}
+
+/*------------------------------------------------
+Project 1
+-----------------------------------------------*/
+
+.proj-1-1 {
+	height: 480px;
+    background-image: url(../images/proj-1/proj-1-1.jpg);
+}
+
+.proj-1-2 {
+    background-image: url(../images/proj-1/proj-1-2.jpg);
+}
+
+.proj-1-3 {
+    background-image: url(../images/proj-1/proj-1-3.jpg);
+}
+
+.proj-1-4 {
+    background-image: url(../images/proj-1/proj-1-4.jpg);
+}
+
+.proj-1-5 {
+    background-image: url(../images/proj-1/proj-1-5.jpg);
+}
+
+.proj-1-6 {
+    background-image: url(../images/proj-1/proj-1-6.jpg);
+}
+
+.proj-1-7 {
+    background-image: url(../images/proj-1/proj-1-7.jpg);
+}
+
+.proj-1-8 {
+    background-image: url(../images/proj-1/proj-1-8.jpg);
+}
+
+.project-1 .resize-row-1 {
+	height: 504px;
+}
+
+.project-1 .resize-row-1 .img-col {
+	height: 504px;
+}
+
+.proj-1-9 {
+    background-image: url(../images/proj-1/proj-1-9.jpg);
+}
+
+.proj-1-10 {
+    background-image: url(../images/proj-1/proj-1-10.jpg);
+}
+
+.proj-1-11 {
+	height: 550px;
+    background-image: url(../images/proj-1/proj-1-11.jpg);
+}
+
+.proj-1-12 {
+    background-image: url(../images/proj-1/proj-1-12.jpg);
+}
+
+.proj-1-13 {
+    background-image: url(../images/proj-1/proj-1-13.jpg);
+}
+
+.proj-1-14 {
+    background-image: url(../images/proj-1/proj-1-14.jpg);
+}
+
+.proj-1-15 {
+    background-image: url(../images/proj-1/proj-1-15.jpg);
+}
+
+.proj-1-16 {
+    background-image: url(../images/proj-1/proj-1-16.jpg);
+}
+
+.proj-1-17 {
+    background-image: url(../images/proj-1/proj-1-17.jpg);
+}
+
+.proj-1-18 {
+    background-image: url(../images/proj-1/proj-1-18.jpg);
+}
+
+/*------------------------------------------------
+Project 2
+-----------------------------------------------*/
+
+.proj-2-1 {
+	height: 435px;
+    background-image: url(../images/proj-2/proj-2-1.jpg);
+}
+
+.project-2 .resize-row-1 {
+	height: 226px;
+}
+
+.project-2 .resize-row-1 .img-col {
+	height: 226px;
+}
+
+.proj-2-2 {
+    background-image: url(../images/proj-2/proj-2-2.png);
+}
+
+.proj-2-3 {
+    background-image: url(../images/proj-2/proj-2-3.png);
+}
+
+.proj-2-4 {
+    background-image: url(../images/proj-2/proj-2-4.png);
+}
+
+.proj-2-5 {
+	height: 435px;
+    background-image: url(../images/proj-2/proj-2-5.jpg);
+}
+
+.project-2 .resize-row-2 {
+	height: 305px;
+}
+
+.project-2 .resize-row-2 .img-col {
+	height: 305px;
+}
+
+.proj-2-6 {
+    background-image: url(../images/proj-2/proj-2-6.jpg);
+}
+
+.proj-2-7 {
+    background-image: url(../images/proj-2/proj-2-7.jpg);
+}
+
+.proj-2-8 {
+    background-image: url(../images/proj-2/proj-2-8.jpg);
+}
+
+.proj-2-9 {
+    background-image: url(../images/proj-2/proj-2-9.jpg);
+}
+
+.proj-2-10 {
+    background-image: url(../images/proj-2/proj-2-10.jpg);
+}
+
+.proj-2-11 {
+    background-image: url(../images/proj-2/proj-2-11.jpg);
+}
+
+.proj-2-12 {
+	height: 420px;
+    background-image: url(../images/proj-2/proj-2-12.jpg);
+}
+
+.proj-2-13 {
+	height: 467px;
+    background-image: url(../images/proj-2/proj-2-13.jpg);
+}
+
+.proj-2-14 {
+	height: 395px;
+    background-image: url(../images/proj-2/proj-2-14.jpg);
+}
+
+
+/*------------------------------------------------
+Project 3
+-----------------------------------------------*/
+
+.proj-3-1 {
+	height: 436px;
+    background-image: url(../images/proj-3/proj-3-1.jpg);
+}
+
+.project-3 span {
+	font-family: "Forum", serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #757575;
+}
+
+.proj-3-2 {
+	height: 316px;
+    background-image: url(../images/proj-3/proj-3-2.jpg);
+}
+
+.project-3 .resize-row-1 {
+	height: 480px;
+}
+
+.project-3 .resize-row-1 .img-col {
+	height: 480px;
+}
+
+.proj-3-3 {
+    background-image: url(../images/proj-3/proj-3-3.jpg);
+}
+
+.proj-3-4 {
+    background-image: url(../images/proj-3/proj-3-4.jpg);
+}
+
+.proj-3-5 {
+    background-image: url(../images/proj-3/proj-3-5.jpg);
+}
+
+.proj-3-6 {
+    background-image: url(../images/proj-3/proj-3-6.jpg);
+}
+
+.proj-3-7 {
+    background-image: url(../images/proj-3/proj-3-7.jpg);
+}
+
+.proj-3-8 {
+    background-image: url(../images/proj-3/proj-3-8.jpg);
+}
+
+.project-3 .resize-row-2 {
+	height: 410px;
+}
+
+.project-3 .resize-row-2 .img-col {
+	height: 410px;
+}
+
+.proj-3-9 {
+    background-image: url(../images/proj-3/proj-3-9.jpg);
+}
+
+.proj-3-10 {
+    background-image: url(../images/proj-3/proj-3-10.jpg);
+}
+
+/*------------------------------------------------
+Project 4
+-----------------------------------------------*/
+
+.proj-4-1 {
+	height: 1310px;
+    background-image: url(../images/proj-4/proj-4-1.jpg);
+}
+
+/*------------------------------------------------
+Project 5
+-----------------------------------------------*/
+
+.proj-5-1 {
+    background-image: url(../images/proj-5/proj-5-1.jpg);
+}
+
+.proj-5-2 {
+    background-image: url(../images/proj-5/proj-5-2.jpg);
+}
+
+.proj-5-3 {
+	height: 551px;
+    background-image: url(../images/proj-5/proj-5-3.jpg);
+}
+
+/*------------------------------------------------
+Project 6
+-----------------------------------------------*/
+
+.proj-6-1 {
+	height: 365px;
+    background-image: url(../images/proj-6/proj-6-1.jpg);
+}
+
+.project-6 .resize-row-1 {
+	height: 460px;
+}
+
+.project-6 .resize-row-1 .img-col {
+	height: 460px;
+}
+.proj-6-2 {
+    background-image: url(../images/proj-6/proj-6-2.jpg);
+}
+
+.proj-6-3 {
+    background-image: url(../images/proj-6/proj-6-3.jpg);
+}
+
+/*------------------------------------------------
+Footer
+-----------------------------------------------*/
+
+.footer {
+	margin-top: 60px;
+}
+
+.footer a p {
+	display: inline-block;
+	font-size: 18px;
+	position: relative;
+	left: 4px;
+}
+
+.footer a {
+	transition: color 0.35s ease;
+}
+
+.footer a:hover {
+	color: #1b1b1b;
+}
+
+.footer p {
+	margin-top: 25px;
+}
+
+/*------------------------------------------------
+Gallery - Image Preview
+-----------------------------------------------*/
+
+/* Styles the thumbnail */
+
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+	position: fixed;
+	top: -100%;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	opacity: 0;
+	z-index: 5;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+	overflow: hidden;
+ 
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom: 0;
+	max-height: 0%;
+	max-width: 0%;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+	box-sizing: border-box;
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+	display: block;
+	width:50px;
+	height:50px;
+	box-sizing: border-box;
+	background: white;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	top: -80px;
+	right: 0;
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+	opacity: 1;
+	top: 0;
+	bottom: 0;
+	overflow:scroll;
+}
+
+.lightbox-target:target img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+	top: 0;
+}
