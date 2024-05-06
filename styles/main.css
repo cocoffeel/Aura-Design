@@ -69,6 +69,12 @@ a {
 	margin: 10px;
 }
 
+
+.proj-tag {
+	font-family: "Forum", serif;
+	font-size: 14px;
+}
+
 .img-col {
     position: absolute;
     top: 0;
@@ -267,11 +273,6 @@ Home - Projects
 
 .proj-list .proj-title {
 	margin: 240px 0 5px;
-}
-
-.proj-list p {
-	font-family: "Forum", serif;
-	font-size: 14px;
 }
 
 
