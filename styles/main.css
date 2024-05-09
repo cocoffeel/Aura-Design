@@ -623,13 +623,6 @@ Project 3
     background-image: url(../images/proj-3/proj-3-1.jpg);
 }
 
-.project-3 span {
-	font-family: "Forum", serif;
-	font-size: 16px;
-	font-weight: 300;
-	color: #757575;
-}
-
 .proj-3-2 {
 	height: 316px;
     background-image: url(../images/proj-3/proj-3-2.jpg);
