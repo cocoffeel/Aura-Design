@@ -16,15 +16,15 @@ body {
 }
 
 .theme-wrapper .left {
-	flex-basis: 20%;
-	max-width: 20%;
+	flex-basis: 100%;
+	max-width: 100%;
 	margin-left: 5%;
 	padding-right: 20px;
 }
 
 .theme-wrapper .right {
-	flex-basis: 70%;
-	max-width: 70%;
+	flex-basis: 100%;
+	max-width: 100%;
 	margin-right: 5%;
 }
 
@@ -73,10 +73,15 @@ a {
 	color: #757575;
 }
 
+
+.proj-content {
+	padding: 5px;
+}
+
 .proj-link {
 	padding: 10px;
-
 }
+
 
 .proj-tag {
 	font-family: "Forum", serif;
@@ -115,23 +120,6 @@ a {
     background-image: url(../images/proj-6/proj-6.jpg);
 }
 
-@media only screen and (max-width: 768px) {
-	.theme-wrapper {
-		max-width: 1400px;
-		margin: 30px 5%;
-	}
-	.theme-wrapper .left {
-		flex-basis: 100%;
-		max-width: 100%;
-		margin-left: 0;
-		padding-right: 20px;
-	}
-	.theme-wrapper .right {
-		flex-basis: 100%;
-		max-width: 100%;
-		margin-right: 0;
-	}
-}
 
 /*
 |------------------------------------------
@@ -171,8 +159,8 @@ h4 {
 */
 
 .col-s {
-    flex: 0 0 32.65%;
-    max-width: 32.65%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-12 {
@@ -181,132 +169,58 @@ h4 {
 }
 
 .col-11 {
-    flex: 0 0 91%;
-    max-width: 91%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-10 {
-    flex: 0 0 83%;
-    max-width: 83%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-9 {
-    flex: 0 0 74.6%;
-    max-width: 74.6%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-8 {
-    flex: 0 0 66.55%;
-    max-width: 66.55%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-7 {
-    flex: 0 0 58%;
-    max-width: 58%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-6 {
-    flex: 0 0 49.6%;
-    max-width: 49.6%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-5 {
-    flex: 0 0 41%;
-    max-width: 41%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-4 {
-    flex: 0 0 32.65%;
-    max-width: 32.65%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-3 {
-    flex: 0 0 24.6%;
-    max-width: 24.6%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-2 {
-    flex: 0 0 16%;
-    max-width: 16%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .col-1 {
-    flex: 0 0 8%;
-    max-width: 8%;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1400px) {
-	.col-s {
-	    flex: 0 0 49.6%;
-	    max-width: 49.6%;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.col-s {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-12 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-11 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-10 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-9 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-8 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-7 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-6 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-5 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-4 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-3 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-2 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col-1 {
-	    flex: 0 0 100%;
-	    max-width: 100%;
-	}
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 /*------------------------------------------------
@@ -355,7 +269,7 @@ Header
 }
 
 .header .social {
-	margin: 30px 0 20px;
+	margin-top: 30px;
 }
 
 /*------------------------------------------------
@@ -363,11 +277,11 @@ Home - Projects
 -----------------------------------------------*/
 
 .proj-list .img-col {
-	height: 264px;
+	height: 250px;
 }
 
 .proj-list .overlay {
-	height: 100%;
+	height: 250px;
 	transition: background 0.35s ease;
 }
 
@@ -376,26 +290,9 @@ Home - Projects
 }
 
 .proj-list .proj-title {
-	margin: 255px 0 5px;
+	margin: 240px 0 5px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1400px) {
-	.proj-list .img-col {
-		height: 23vw;
-	}
-	.proj-list .proj-title {
-		margin: 22.5vw 0 5px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.proj-list .img-col {
-		height: 58vw;
-	}
-	.proj-list .proj-title {
-		margin: 57.5vw 0 5px;
-	}
-}
 
 /*------------------------------------------------
 About
@@ -546,6 +443,15 @@ Project Page
 	margin-bottom: 10px;
 }
 
+.right .image-size-1 li {
+	height: 290px;
+	margin-bottom: 10px;
+}
+
+.right .image-size-1 .img-col {
+	height: 290px;
+}
+
 .right .bullet {
 	margin-bottom: 5px;
 }
@@ -554,95 +460,6 @@ Project Page
 	list-style: circle;
 	list-style-position: inside;
 }
-
-.right .image-size-1 li{
-	height: 290px;
-}
-
-.right .image-size-1 .img-col {
-	height: 290px;
-}
-
-.right .image-size-2 li{
-	height: 450px;
-}
-
-.right .image-size-2 .img-col {
-	height: 450px;
-}
-
-.right .image-size-3 li{
-	height: 550px;
-}
-
-.right .image-size-3 .img-col {
-	height: 550px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1400px) {
-	.right .text {
-		margin: 30px 10%;
-	}
-	.right .image-size-1 li{
-		height: 21vw;
-	}
-
-	.right .image-size-1 .img-col {
-		height: 21vw;
-	}
-
-	.right .image-size-2 li{
-		height: 30vw;
-	}
-
-	.right .image-size-2 .img-col {
-		height: 30vw;
-	}
-
-	.right .image-size-3 li{
-		height: 40vw;
-	}
-
-	.right .image-size-3 .img-col {
-		height: 40vw;
-	}
-}
-
-
-@media only screen and (max-width: 768px) {
-	.right .text {
-		margin: 30px 10%;
-	}
-
-	.right [class*="image-size"] li {
-		margin-bottom: 10px;
-	}
-
-	.right .image-size-1 li{
-		height: 58vw;
-	}
-
-	.right .image-size-1 .img-col {
-		height: 58vw;
-	}
-
-	.right .image-size-2 li{
-		height: 90vw;
-	}
-
-	.right .image-size-2 .img-col {
-		height: 90vw;
-	}
-
-	.right .image-size-3 li{
-		height: 100vw;
-	}
-
-	.right .image-size-3 .img-col {
-		height: 100vw;
-	}
-}
-
 
 /*------------------------------------------------
 Project 1
@@ -676,6 +493,14 @@ Project 1
     background-image: url(../images/proj-1/proj-1-8.jpg);
 }
 
+.project-1 .resize-row-1 {
+	height: 504px;
+}
+
+.project-1 .resize-row-1 .img-col {
+	height: 504px;
+}
+
 .proj-1-9 {
     background-image: url(../images/proj-1/proj-1-9.jpg);
 }
@@ -685,6 +510,7 @@ Project 1
 }
 
 .proj-1-11 {
+	height: 550px;
     background-image: url(../images/proj-1/proj-1-11.jpg);
 }
 
@@ -700,20 +526,21 @@ Project 1
     background-image: url(../images/proj-1/proj-1-14.jpg);
 }
 
-.proj-1-15 {
-    background-image: url(../images/proj-1/proj-1-15.jpg);
-}
-
-.proj-1-16 {
-    background-image: url(../images/proj-1/proj-1-16.jpg);
-}
-
 /*------------------------------------------------
 Project 2
 -----------------------------------------------*/
 
 .proj-2-1 {
+	height: 435px;
     background-image: url(../images/proj-2/proj-2-1.jpg);
+}
+
+.project-2 .resize-row-1 {
+	height: 226px;
+}
+
+.project-2 .resize-row-1 .img-col {
+	height: 226px;
 }
 
 .proj-2-2 {
@@ -729,7 +556,16 @@ Project 2
 }
 
 .proj-2-5 {
+	height: 435px;
     background-image: url(../images/proj-2/proj-2-5.jpg);
+}
+
+.project-2 .resize-row-2 {
+	height: 305px;
+}
+
+.project-2 .resize-row-2 .img-col {
+	height: 305px;
 }
 
 .proj-2-6 {
@@ -757,14 +593,17 @@ Project 2
 }
 
 .proj-2-12 {
+	height: 420px;
     background-image: url(../images/proj-2/proj-2-12.jpg);
 }
 
 .proj-2-13 {
+	height: 467px;
     background-image: url(../images/proj-2/proj-2-13.jpg);
 }
 
 .proj-2-14 {
+	height: 395px;
     background-image: url(../images/proj-2/proj-2-14.jpg);
 }
 
@@ -774,7 +613,21 @@ Project 3
 -----------------------------------------------*/
 
 .proj-3-1 {
+	height: 436px;
     background-image: url(../images/proj-3/proj-3-1.jpg);
+}
+
+.proj-3-2 {
+	height: 316px;
+    background-image: url(../images/proj-3/proj-3-2.jpg);
+}
+
+.project-3 .resize-row-1 {
+	height: 480px;
+}
+
+.project-3 .resize-row-1 .img-col {
+	height: 480px;
 }
 
 .proj-3-3 {
@@ -783,6 +636,10 @@ Project 3
 
 .proj-3-4 {
     background-image: url(../images/proj-3/proj-3-4.jpg);
+}
+
+.proj-3-5 {
+    background-image: url(../images/proj-3/proj-3-5.jpg);
 }
 
 .proj-3-6 {
@@ -795,6 +652,18 @@ Project 3
 
 .proj-3-8 {
     background-image: url(../images/proj-3/proj-3-8.jpg);
+}
+
+.project-3 .resize-row-2 {
+	height: 410px;
+}
+
+.project-3 .resize-row-2 .img-col {
+	height: 410px;
+}
+
+.proj-3-9 {
+    background-image: url(../images/proj-3/proj-3-9.jpg);
 }
 
 .proj-3-10 {
@@ -823,6 +692,7 @@ Project 5
 }
 
 .proj-5-3 {
+	height: 551px;
     background-image: url(../images/proj-5/proj-5-3.jpg);
 }
 
@@ -831,9 +701,17 @@ Project 6
 -----------------------------------------------*/
 
 .proj-6-1 {
+	height: 365px;
     background-image: url(../images/proj-6/proj-6-1.jpg);
 }
 
+.project-6 .resize-row-1 {
+	height: 460px;
+}
+
+.project-6 .resize-row-1 .img-col {
+	height: 460px;
+}
 .proj-6-2 {
     background-image: url(../images/proj-6/proj-6-2.jpg);
 }
