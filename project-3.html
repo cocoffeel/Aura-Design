@@ -18,7 +18,12 @@
             <div class="left">
                 <header class="header">
                     <div class="logo" ><a href="index.html" title="Laura Liu"><img src="images/logo.svg" width="90" height="48" alt="Laura Liu Logo"></a></div>
-                    <nav class="gn">
+                    <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </a>
+                    <nav class="gn" id="menu">
                         <ul>
                             <li class="nav-1">
                                 <a href="index.html" title="Home">Projects</a>
@@ -35,12 +40,22 @@
                             <li class="nav-1"><a href="about.html" title="About">About</a></li>
                             <li class="nav-1"><a href="contact.html" title="Contact">Contact</a></li>
                         </ul>
+                        <ul class="social is-flex-left">
+                            <li><a href="https://www.facebook.com/motivatedwallart" title="Find me on Facebook" target="_blank"><img src="images/facebook.svg" width="25" height="25" alt="facebook logo"></a></li>
+                            <li><a href="https://www.instagram.com/motivatedwallart/?hl=en" title="Find me on Instagram" target="_blank"><img src="images/instagram.svg" width="25" height="25" alt="instagram logo"></a></li>
+                            <li><a href="https://www.linkedin.com/in/lauraliuvan" title="Find me on Linkedin" target="_blank"><img src="images/linkedin.svg" width="25" height="25" alt="linkedin logo"></a></li>
+                        </ul>
                     </nav>
-                    <ul class="social is-flex-left">
-                        <li><a href="https://www.facebook.com/motivatedwallart" title="Find me on Facebook" target="_blank"><img src="images/facebook.svg" width="25" height="25" alt="facebook logo"></a></li>
-                        <li><a href="https://www.instagram.com/motivatedwallart/?hl=en" title="Find me on Instagram" target="_blank"><img src="images/instagram.svg" width="25" height="25" alt="instagram logo"></a></li>
-                        <li><a href="https://www.linkedin.com/in/lauraliuvan" title="Find me on Linkedin" target="_blank"><img src="images/linkedin.svg" width="25" height="25" alt="linkedin logo"></a></li>
-                    </ul>
+                    <script>
+                    function myFunction() {
+                      var x = document.getElementById("menu");
+                      if (x.style.display === "block") {
+                        x.style.display = "none";
+                      } else {
+                        x.style.display = "block";
+                      }
+                    }
+                    </script>
                 </header>
             </div>
             <div class="right project-3">
