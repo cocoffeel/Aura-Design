@@ -858,6 +858,26 @@ Project 2
     background-image: url(../images/proj-2/proj-2-14.jpg);
 }
 
+.proj-2-15 {
+    background-image: url(../images/proj-2/proj-2-15.jpg);
+}
+
+.proj-2-16 {
+    background-image: url(../images/proj-2/proj-2-16.jpg);
+}
+
+.proj-2-17 {
+    background-image: url(../images/proj-2/proj-2-17.jpg);
+}
+
+.proj-2-18 {
+    background-image: url(../images/proj-2/proj-2-18.jpg);
+}
+
+.proj-2-19 {
+    background-image: url(../images/proj-2/proj-2-19.jpg);
+}
+
 
 /*------------------------------------------------
 Project 3
@@ -879,6 +899,10 @@ Project 3
     background-image: url(../images/proj-3/proj-3-6.jpg);
 }
 
+.proj-3-5 {
+    background-image: url(../images/proj-3/proj-3-5.jpg);
+}
+
 .proj-3-7 {
     background-image: url(../images/proj-3/proj-3-7.jpg);
 }
@@ -898,6 +922,14 @@ Project 4
 .proj-4-1 {
 	height: 1310px;
     background-image: url(../images/proj-4/proj-4-1.jpg);
+}
+.proj-4-2 {
+	height: 1000px;
+    background-image: url(../images/proj-4/proj-4-2.jpg);
+}
+.proj-4-3 {
+	height: 600px;
+    background-image: url(../images/proj-4/proj-4-3.jpg);
 }
 
 /*------------------------------------------------
