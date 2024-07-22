@@ -91,28 +91,26 @@ a {
     bottom: 0;
 }
 
-.proj-1 {
-    background-image: url(../images/proj-1/proj-1.jpg);
+.button {
+	justify-content: right;
 }
 
-.proj-2 {
-    background-image: url(../images/proj-2/proj-2.jpg);
+.button-left {
+	justify-content: left;
 }
 
-.proj-3 {
-    background-image: url(../images/proj-3/proj-3.jpg);
+.btn {
+	margin-top: 10px;
+	padding: 5px 12px;
+	background: #fff;
+	border-radius: 6px;
+	border: 1px solid #393939;
+	font-family: inherit;
+	transition: color 0.35s ease;
 }
 
-.proj-4 {
-    background-image: url(../images/proj-4/proj-4.jpg);
-}
-
-.proj-5 {
-    background-image: url(../images/proj-5/proj-5.jpg);
-}
-
-.proj-6 {
-    background-image: url(../images/proj-6/proj-6.jpg);
+.btn:hover {
+	background: #f5f5f5;
 }
 
 @media only screen and (max-width: 768px) {
@@ -132,6 +130,7 @@ a {
 		margin-right: 0;
 	}
 }
+
 
 /*
 |------------------------------------------
@@ -395,6 +394,36 @@ Header
 	}
 }
 
+/*
+|------------------------------------------
+|  Home Page Image
+|------------------------------------------
+*/
+
+.proj-1 {
+    background-image: url(../images/proj-1/proj-1.jpg);
+}
+
+.proj-2 {
+    background-image: url(../images/proj-2/proj-2.jpg);
+}
+
+.proj-3 {
+    background-image: url(../images/proj-3/proj-3.jpg);
+}
+
+.proj-4 {
+    background-image: url(../images/proj-4/proj-4.jpg);
+}
+
+.proj-5 {
+    background-image: url(../images/proj-5/proj-5.jpg);
+}
+
+.proj-6 {
+    background-image: url(../images/proj-6/proj-6.jpg);
+}
+
 
 /*------------------------------------------------
 Home - Projects
@@ -553,24 +582,6 @@ Contact
 	width: 100%;
 	font-family: inherit;
 	font-weight: 300;
-}
-
-.button {
-	justify-content: right;
-}
-
-.btn {
-	width: 100px;
-	margin-top: 10px;
-	background: #fff;
-	border-radius: 6px;
-	border: 1px solid #393939;
-	font-family: inherit;
-	transition: color 0.35s ease;
-}
-
-.btn:hover {
-	background: #f5f5f5;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
@@ -1051,6 +1062,15 @@ Project 6
 }
 .proj-6-13 {
     background-image: url(../images/proj-6/proj-6-13.jpg);
+}
+.proj-6-14 {
+    background-image: url(../images/proj-6/proj-6-14.jpg);
+}
+.proj-6-15 {
+    background-image: url(../images/proj-6/proj-6-15.jpg);
+}
+.proj-6-16 {
+    background-image: url(../images/proj-6/proj-6-16.jpg);
 }
 
 /*------------------------------------------------
