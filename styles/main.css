@@ -913,16 +913,16 @@ Project 4
 -----------------------------------------------*/
 
 .proj-4-1 {
-	height: 1310px;
     background-image: url(../images/proj-4/proj-4-1.jpg);
 }
 .proj-4-2 {
-	height: 1000px;
     background-image: url(../images/proj-4/proj-4-2.jpg);
 }
 .proj-4-3 {
-	height: 600px;
     background-image: url(../images/proj-4/proj-4-3.jpg);
+}
+.proj-4-4 {
+    background-image: url(../images/proj-4/proj-4-4.jpg);
 }
 
 /*------------------------------------------------
