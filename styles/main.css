@@ -73,6 +73,19 @@ a {
 	color: #757575;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
+section + section {
+	margin-top: 20px;
+}
+
+.overflow {
+	overflow-y: scroll;
+}
+
 .proj-link {
 	padding: 10px;
 
@@ -543,26 +556,26 @@ Gallery
 .gallery-1 {
     background-image: url(../images/gallery/gallery-1.jpg);
 }
-
+.gallery-1-full {
+    background-image: url(../images/gallery/gallery-1.jpg), url(../images/gallery/gallery-2.jpg);
+    background-position: 30%, 70%;
+}
 .gallery-2 {
     background-image: url(../images/gallery/gallery-2.jpg);
 }
-
 .gallery-3 {
     background-image: url(../images/gallery/gallery-3.jpg);
 }
-
 .gallery-4 {
     background-image: url(../images/gallery/gallery-4.jpg);
 }
-
 .gallery-5 {
     background-image: url(../images/gallery/gallery-5.jpg);
 }
-
 .gallery-6 {
     background-image: url(../images/gallery/gallery-6.jpg);
 }
+
 /*------------------------------------------------
 Contact
 -----------------------------------------------*/
@@ -923,6 +936,12 @@ Project 4
 }
 .proj-4-4 {
     background-image: url(../images/proj-4/proj-4-4.jpg);
+}
+.proj-4-5 {
+    background-image: url(../images/proj-4/proj-4-5.jpg);
+}
+.proj-4-6 {
+    background-image: url(../images/proj-4/proj-4-6.jpg);
 }
 
 /*------------------------------------------------
