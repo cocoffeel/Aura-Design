@@ -666,7 +666,7 @@ Project Page
 	height: 750px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1400px) {
+@media only screen and (min-width: 1050px) and (max-width: 1400px) {
 	.right .text {
 		margin: 30px 10%;
 	}
@@ -695,11 +695,11 @@ Project Page
 	}
 
 	.right .image-size-4 li{
-		height: 50vw;
+		height: 40vw;
 	}
 
 	.right .image-size-4 .img-col {
-		height: 50vw;
+		height: 40vw;
 	}
 }
 
@@ -736,27 +736,27 @@ Project Page
 	}
 
 	.right .image-size-2 li{
-		height: 90vw;
+		height: 80vw;
 	}
 
 	.right .image-size-2 .img-col {
-		height: 90vw;
+		height: 80vw;
 	}
 
 	.right .image-size-3 li{
-		height: 100vw;
+		height: 70vw;
 	}
 
 	.right .image-size-3 .img-col {
-		height: 100vw;
+		height: 70vw;
 	}
 
 	.right .image-size-4 li{
-		height: 100vw;
+		height: 70vw;
 	}
 
 	.right .image-size-4 .img-col {
-		height: 100vw;
+		height: 70vw;
 	}
 }
 
@@ -945,7 +945,7 @@ Project 5
     background-image: url(../images/proj-5/proj-5-5.jpg);
 }
 .proj-5-6 {
-    background-image: url(../images/proj-5/proj-5-6.jpg);
+    background-image: url(../images/proj-5/proj-5-6.gif);
 }
 .proj-5-7 {
     background-image: url(../images/proj-5/proj-5-7.jpg);
