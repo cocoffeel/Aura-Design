@@ -556,10 +556,6 @@ Gallery
 .gallery-1 {
     background-image: url(../images/gallery/gallery-1.jpg);
 }
-.gallery-1-full {
-    background-image: url(../images/gallery/gallery-1.jpg), url(../images/gallery/gallery-2.jpg);
-    background-position: 30%, 70%;
-}
 .gallery-2 {
     background-image: url(../images/gallery/gallery-2.jpg);
 }
