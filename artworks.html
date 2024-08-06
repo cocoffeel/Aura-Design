@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/reset.css">       
         <link rel="stylesheet" href="styles/main.css">
         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
@@ -43,7 +43,7 @@
                                 </ul>
                             </li>
                             <li class="nav-1">
-                                <a href="artworks.html" title="Artworks">Artworks</a>
+                                <a class="active" href="artworks.html" title="Artworks">Artworks</a>
                                 <ul>
                                     <li class="nav-2"><a href="artwork-art-print.html" title="Art Print">Art Print</a></li>
                                     <li class="nav-2"><a href="artwork-fruit.html" title="Fruit">Fruit</a></li>
@@ -53,7 +53,7 @@
                             </li>
                             <li class="nav-1"><a href="gallery.html" title="Gallery">Gallery</a></li>
                             <li class="nav-1"><a href="about.html" title="About">About</a></li>
-                            <li class="nav-1"><a class="active" href="contact.html" title="Contact">Contact</a></li>
+                            <li class="nav-1"><a href="contact.html" title="Contact">Contact</a></li>
                         </ul>
                         <ul class="social is-flex-left">
                             <li><a href="https://www.facebook.com/motivatedwallart" title="Find me on Facebook" target="_blank"><img src="images/facebook.svg" width="25" height="25" alt="facebook logo"></a></li>
@@ -75,21 +75,45 @@
             </div>
             <div class="right">
                 <main>
-                    <section>
-                        <div class="contact is-flex">
-                            <div class="container">
-                                <h1 class="is-center">Let's Connect</h1>
-                                <form id="contact-form" class="form">
-                                     <input class="input" type="text" id="name" name="name" placeholder="Your Name" required >
-                                      <input class="input" type="email" id="email" name="email" placeholder="Your Email" required >
-                                      <textarea class="input" id="message" name="message" rows="10" cols="30" placeholder="Your Message" required></textarea>
-                                    <div class="button is-flex">
-                                      <button class="btn" type="submit">Submit</button>
+                    <section class="proj-list">
+                        <ul class="is-flex">
+                            <li class="proj-content col-s is-relative">
+                                <a class="proj-link" href="artwork-art-print.html" title="Art Print">
+                                    <div class="img-col art-print bg-cover">
+                                        <div class="overlay"></div>
                                     </div>
-                                </form>
-                                <script src="scripts/index.js"></script>
-                            </div>
-                        </div>
+                                    <h3 class="proj-title">Art Print</h3>
+                                    <p class="proj-tag">Wall Art Print, Poster</p>
+                                </a>
+                            </li>
+                            <li class="proj-content col-s is-relative">
+                                <a class="proj-link" href="artwork-fruit.html" title="Fruit">
+                                    <div class="img-col fruit bg-cover">
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h3 class="proj-title">Fruit</h3>
+                                    <p class="proj-tag">Fruit Illustration</p>
+                                </a>
+                            </li>
+                            <li class="proj-content col-s is-relative">
+                                <a class="proj-link" href="artwork-animal.html" title="Animal">
+                                    <div class="img-col animal bg-cover">
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h3 class="proj-title">Animal</h3>
+                                    <p class="proj-tag">Animal Illustration</p>
+                                </a>
+                            </li>
+                            <li class="proj-content col-s is-relative">
+                                <a class="proj-link" href="artwork-panda.html" title="Panda">
+                                    <div class="img-col panda bg-cover">
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <h3 class="proj-title">Panda</h3>
+                                    <p class="proj-tag">Emoji, Animation</p>
+                                </a>
+                            </li>
+                        </ul>
                     </section>
                 </main>
                 <footer>

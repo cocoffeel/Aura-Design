@@ -353,7 +353,7 @@ Header
 }
 
 .gn .nav-1 {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .gn .nav-2 {
@@ -1096,6 +1096,39 @@ Project 6
 .proj-6-18 {
     background-image: url(../images/proj-6/proj-6-18.jpg);
 }
+
+/*------------------------------------------------
+Art Print
+-----------------------------------------------*/
+.art-print {
+	background-image: url(../images/art-print/art-print.jpg);
+}
+.art-print-1 {
+	background-image: url(../images/art-print/art-print-1.jpg);
+}
+
+
+/*------------------------------------------------
+Fruit
+-----------------------------------------------*/
+.fruit {
+	background-image: url(../images/fruit/fruit.jpg);
+}
+
+/*------------------------------------------------
+Animal
+-----------------------------------------------*/
+.animal {
+	background-image: url(../images/animal/animal.jpg);
+}
+
+/*------------------------------------------------
+Panda
+-----------------------------------------------*/
+.panda {
+	background-image: url(../images/panda/panda.jpg);
+}
+
 
 /*------------------------------------------------
 Footer
