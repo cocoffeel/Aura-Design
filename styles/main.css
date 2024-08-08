@@ -79,7 +79,7 @@ img {
 }
 
 section + section {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .overflow {
@@ -353,7 +353,7 @@ Header
 }
 
 .gn .nav-1 {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .gn .nav-2 {
@@ -675,7 +675,7 @@ Project Page
 	height: 750px;
 }
 
-@media only screen and (min-width: 1050px) and (max-width: 1400px) {
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
 	.right .text {
 		margin: 30px 10%;
 	}
@@ -1098,35 +1098,296 @@ Project 6
 }
 
 /*------------------------------------------------
-Art Print
+Artwork 1
 -----------------------------------------------*/
-.art-print {
-	background-image: url(../images/art-print/art-print.jpg);
+.art-1 {
+	background-image: url(../images/art-1/art-1.jpg);
 }
-.art-print-1 {
-	background-image: url(../images/art-print/art-print-1.jpg);
+.art-1-1 {
+	background-image: url(../images/art-1/art-1-1.jpg);
+}
+.art-1-2 {
+	background-image: url(../images/art-1/art-1-2.jpg);
+}
+.art-1-3 {
+	background-image: url(../images/art-1/art-1-3.jpg);
+}
+.art-1-4 {
+	background-image: url(../images/art-1/art-1-4.jpg);
+}
+.art-1-5 {
+	background-image: url(../images/art-1/art-1-5.jpg);
+}
+.art-1-6 {
+	background-image: url(../images/art-1/art-1-6.jpg);
+}
+.art-1-7 {
+	background-image: url(../images/art-1/art-1-7.jpg);
+}
+.art-1-8 {
+	background-image: url(../images/art-1/art-1-8.jpg);
+}
+.art-1-9 {
+	background-image: url(../images/art-1/art-1-9.jpg);
+}
+.art-1-10 {
+	background-image: url(../images/art-1/art-1-10.jpg);
+}
+.art-1-11 {
+	background-image: url(../images/art-1/art-1-11.jpg);
+}
+.art-1-12 {
+	background-image: url(../images/art-1/art-1-12.jpg);
+}
+.art-1-13 {
+	background-image: url(../images/art-1/art-1-13.jpg);
+}
+.art-1-14 {
+	background-image: url(../images/art-1/art-1-14.jpg);
+}
+.art-1-15 {
+	background-image: url(../images/art-1/art-1-15.jpg);
+}
+.art-1-16 {
+	background-image: url(../images/art-1/art-1-16.jpg);
+}
+.art-1-17 {
+	background-image: url(../images/art-1/art-1-17.jpg);
+}
+.art-1-18 {
+	background-image: url(../images/art-1/art-1-18.jpg);
 }
 
 
 /*------------------------------------------------
-Fruit
+Artwork 2
 -----------------------------------------------*/
-.fruit {
-	background-image: url(../images/fruit/fruit.jpg);
+.art-2 {
+	background-image: url(../images/art-2/art-2.jpg);
+}
+.art-2-1 {
+	background-image: url(../images/art-2/art-2-1.jpg);
+}
+.art-2-2 {
+	background-image: url(../images/art-2/art-2-2.jpg);
+}
+.art-2-3 {
+	background-image: url(../images/art-2/art-2-3.jpg);
+}
+.art-2-4 {
+	background-image: url(../images/art-2/art-2-4.jpg);
+}
+.art-2-5 {
+	background-image: url(../images/art-2/art-2-5.jpg);
+}
+.art-2-6 {
+	background-image: url(../images/art-2/art-2-6.jpg);
+}
+.art-2-7 {
+	background-image: url(../images/art-2/art-2-7.jpg);
+}
+.art-2-8 {
+	background-image: url(../images/art-2/art-2-8.jpg);
+}
+.art-2-9 {
+	background-image: url(../images/art-2/art-2-9.jpg);
+}
+.art-2-10 {
+	background-image: url(../images/art-2/art-2-10.jpg);
+}
+.art-2-11 {
+	background-image: url(../images/art-2/art-2-11.jpg);
+}
+.art-2-12 {
+	background-image: url(../images/art-2/art-2-12.jpg);
+}
+.art-2-13 {
+	background-image: url(../images/art-2/art-2-13.jpg);
+}
+.art-2-14 {
+	background-image: url(../images/art-2/art-2-14.jpg);
+}
+.art-2-15 {
+	background-image: url(../images/art-2/art-2-15.jpg);
+}
+.art-2-16 {
+	background-image: url(../images/art-2/art-2-16.jpg);
+}
+.art-2-17 {
+	background-image: url(../images/art-2/art-2-17.jpg);
+}
+.art-2-18 {
+	background-image: url(../images/art-2/art-2-18.jpg);
+}
+.art-2-19 {
+	background-image: url(../images/art-2/art-2-19.jpg);
+}
+.art-2-20 {
+	background-image: url(../images/art-2/art-2-20.jpg);
+}
+.art-2-21 {
+	background-image: url(../images/art-2/art-2-21.jpg);
+}
+.art-2-22 {
+	background-image: url(../images/art-2/art-2-22.jpg);
+}
+.art-2-23 {
+	background-image: url(../images/art-2/art-2-23.jpg);
+}
+.art-2-24 {
+	background-image: url(../images/art-2/art-2-24.jpg);
+}
+.art-2-25 {
+	background-image: url(../images/art-2/art-2-25.jpg);
+}
+.art-2-26 {
+	background-image: url(../images/art-2/art-2-26.jpg);
+}
+.art-2-27 {
+	background-image: url(../images/art-2/art-2-27.jpg);
+}
+.art-2-28 {
+	background-image: url(../images/art-2/art-2-28.jpg);
+}
+.art-2-29 {
+	background-image: url(../images/art-2/art-2-29.jpg);
+}
+.art-2-30 {
+	background-image: url(../images/art-2/art-2-30.jpg);
+}
+.art-2-31 {
+	background-image: url(../images/art-2/art-2-31.jpg);
+}
+.art-2-32 {
+	background-image: url(../images/art-2/art-2-32.jpg);
+}
+.art-2-33 {
+	background-image: url(../images/art-2/art-2-33.jpg);
 }
 
 /*------------------------------------------------
-Animal
+Artwork 3
 -----------------------------------------------*/
-.animal {
-	background-image: url(../images/animal/animal.jpg);
+.art-3 {
+	background-image: url(../images/art-3/art-3.jpg);
+}
+.art-3-1 {
+	background-image: url(../images/art-3/art-3-1.jpg);
+}
+.art-3-2 {
+	background-image: url(../images/art-3/art-3-2.jpg);
+}
+.art-3-3 {
+	background-image: url(../images/art-3/art-3-3.jpg);
+}
+.art-3-4 {
+	background-image: url(../images/art-3/art-3-4.jpg);
+}
+.art-3-5 {
+	background-image: url(../images/art-3/art-3-5.jpg);
+}
+.art-3-6 {
+	background-image: url(../images/art-3/art-3-6.jpg);
+}
+.art-3-7 {
+	background-image: url(../images/art-3/art-3-7.jpg);
+}
+.art-3-8 {
+	background-image: url(../images/art-3/art-3-8.jpg);
+}
+.art-3-9 {
+	background-image: url(../images/art-3/art-3-9.png);
+}
+.art-3-10 {
+	background-image: url(../images/art-3/art-3-10.png);
+}
+.art-3-11 {
+	background-image: url(../images/art-3/art-3-11.png);
+}
+.art-3-12 {
+	background-image: url(../images/art-3/art-3-12.png);
+}
+.art-3-13 {
+	background-image: url(../images/art-3/art-3-13.png);
+}
+.art-3-14 {
+	background-image: url(../images/art-3/art-3-14.png);
+}
+.art-3-15 {
+	background-image: url(../images/art-3/art-3-15.png);
+}
+.art-3-16 {
+	background-image: url(../images/art-3/art-3-16.png);
+}
+.art-3-17 {
+	background-image: url(../images/art-3/art-3-17.png);
+}
+.art-3-18 {
+	background-image: url(../images/art-3/art-3-18.png);
+}
+.art-3-19 {
+	background-image: url(../images/art-3/art-3-19.png);
+}
+.art-3-20 {
+	background-image: url(../images/art-3/art-3-20.png);
 }
 
 /*------------------------------------------------
-Panda
+Artwork 4
 -----------------------------------------------*/
-.panda {
-	background-image: url(../images/panda/panda.jpg);
+.artwork-4 .img-col {
+	width: 85%;
+}
+.art-4 {
+	background-image: url(../images/art-4/art-4.jpg);
+}
+.art-4-1 {
+	background-image: url(../images/art-4/art-4-1.gif);
+}
+.art-4-2 {
+	background-image: url(../images/art-4/art-4-2.gif);
+}
+.art-4-3 {
+	background-image: url(../images/art-4/art-4-3.gif);
+}
+.art-4-4 {
+	background-image: url(../images/art-4/art-4-4.gif);
+}
+.art-4-5 {
+	background-image: url(../images/art-4/art-4-5.gif);
+}
+.art-4-6 {
+	background-image: url(../images/art-4/art-4-6.gif);
+}
+.art-4-7 {
+	background-image: url(../images/art-4/art-4-7.gif);
+}
+.art-4-8 {
+	background-image: url(../images/art-4/art-4-8.gif);
+}
+.art-4-9 {
+	background-image: url(../images/art-4/art-4-9.gif);
+}
+.art-4-10 {
+	background-image: url(../images/art-4/art-4-10.gif);
+}
+.art-4-11 {
+	background-image: url(../images/art-4/art-4-11.gif);
+}
+.art-4-12 {
+	background-image: url(../images/art-4/art-4-12.gif);
+}
+.art-4-13 {
+	background-image: url(../images/art-4/art-4-13.gif);
+}
+.art-4-14 {
+	background-image: url(../images/art-4/art-4-14.gif);
+}
+.art-4-15 {
+	background-image: url(../images/art-4/art-4-15.gif);
+}
+.art-4-16 {
+	background-image: url(../images/art-4/art-4-16.gif);
 }
 
 
