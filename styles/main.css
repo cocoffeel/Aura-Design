@@ -82,6 +82,10 @@ section + section {
 	margin-top: 15px;
 }
 
+h3 + p {
+	margin-top: 5px;
+}
+
 .overflow {
 	overflow-y: scroll;
 }
@@ -126,6 +130,15 @@ section + section {
 	background: #f5f5f5;
 }
 
+.overlay {
+	height: 100%;
+	transition: background 0.35s ease;
+}
+
+.overlay:hover {
+	background: rgba(0,0,0,0.25);
+}
+
 @media only screen and (max-width: 768px) {
 	.theme-wrapper {
 		max-width: 1400px;
@@ -160,6 +173,7 @@ h1 {
 h2 {
 	font-size: 20px;
 	font-weight: 300;
+	color: #393939;
 	text-transform: uppercase;
 }
 
@@ -446,15 +460,6 @@ Home - Projects
 	height: 264px;
 }
 
-.proj-list .overlay {
-	height: 100%;
-	transition: background 0.35s ease;
-}
-
-.proj-list .overlay:hover {
-	background: rgba(0,0,0,0.25);
-}
-
 .proj-list .proj-title {
 	margin: 255px 0 5px;
 }
@@ -540,15 +545,6 @@ Gallery
 
 .gallery .img-col {
 	height: 400px;
-}
-
-.gallery .overlay {
-	height: 400px;
-	transition: background 0.35s ease;
-}
-
-.gallery .overlay:hover {
-	background: rgba(0,0,0,0.25);
 }
 
 .gallery .proj-title {
@@ -675,6 +671,33 @@ Project Page
 
 .right .image-size-4 .img-col {
 	height: 750px;
+}
+
+.next {
+	margin-top: 50px;
+	background: #f5f5f5;
+}
+
+.next h1 {
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+.next .content {
+	height: 100%;
+	padding: 20px;
+}
+
+.next-left {
+	height: 220px;
+}
+
+.next-right {
+	padding: 20px 20px 10px 15px;
+}
+
+.next-right h2 {
+	margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
