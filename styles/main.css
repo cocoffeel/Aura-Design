@@ -123,6 +123,7 @@ h3 + p {
 	border-radius: 6px;
 	border: 1px solid #393939;
 	font-family: inherit;
+	color: #393939;
 	transition: color 0.35s ease;
 }
 
@@ -1078,6 +1079,10 @@ Project 5
 /*------------------------------------------------
 Project 6
 -----------------------------------------------*/
+
+.project-6 .button-left {
+	margin-top: 10px;
+}
 
 .proj-6-1 {
     background-image: url(../images/proj-6/proj-6-1.jpg);
