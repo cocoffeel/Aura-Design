@@ -615,11 +615,11 @@ Project Page
 }
 
 .bnr .img-col {
-	margin-right: 40px;
+	margin-right: 10px;
 }
 
 .bnr-right {
-	padding: 35px 50px 30px 10px;
+	padding: 35px 50px 30px 20px;
 }
 
 .bnr-right p {
@@ -761,7 +761,7 @@ Project Page
 @media only screen and (max-width: 768px) {
 
 	.bnr-right {
-		padding: 35px 10px 30px 10px;
+		padding: 35px 15px 30px 15px;
 	}
 
 	.right .text {
