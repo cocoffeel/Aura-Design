@@ -1,0 +1,398 @@
+/*------------------------------------------------
+Global Styles
+-----------------------------------------------*/
+
+body {
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: #364472;
+	line-height: 1.5;
+}
+
+.is-flex {
+	display: flex;
+}
+
+.is-center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.is-reverse {
+    flex-direction: row-reverse;
+}
+
+.is-relative {
+    position: relative;
+}
+
+.bg-center {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.is-white {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img-col {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*
+|------------------------------------------
+|  Typography
+|------------------------------------------
+*/
+
+h1 {
+	font-family: "Sansita Swashed", system-ui;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/*
+|------------------------------------------
+|  The Grid
+|------------------------------------------
+*/
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+}
+
+.col-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+}
+
+.col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+
+.col-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+}
+
+.col-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+}
+
+/*------------------------------------------------
+Header
+-----------------------------------------------*/
+
+.header {
+	background: #070f2a;
+}
+
+.header img {
+	width: 30px;
+	height: auto;
+	margin: 10px;
+}
+
+.header .logo {
+	margin-bottom: 18px;
+}
+
+.header .logo img {
+	width: 70px;
+	height: auto;
+}
+
+.gn li {
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+
+.gn a {
+	color: #fff;
+	border-bottom: 1px solid transparent;
+	padding: 7px 10px;
+	transition: color 0.35s ease;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.gn a:hover {
+	color: #dfba69;
+	border-bottom: 1px solid #dfba69;
+}
+
+.gn .active {
+	border-bottom: 1px solid #fff;	
+}
+
+/*------------------------------------------------
+Banner
+-----------------------------------------------*/
+
+.banner {
+	background-image: url(../images/banner.jpeg);
+}
+
+.banner .overlay {
+    background: rgba(0,0,0,0.5);
+    height: 450px;
+}
+
+.banner .text {
+	width: 440px;
+}
+
+.banner h1 {
+	margin-bottom: 18px;
+}
+
+.banner p {
+	font-size: 22px;
+	font-weight: 400;
+}
+
+/*------------------------------------------------
+Story
+-----------------------------------------------*/
+
+.story .text-col {
+    padding: 130px 60px;
+    min-height: 420px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.story h3 {
+    margin-bottom: 22px;
+}
+
+.story .row-1 {
+    margin-top: 40px;
+}
+
+.story .img-1 {
+    background-image: url(../images/img-1.jpeg);
+}
+
+.story .img-2 {
+    background-image: url(../images/img-2.jpeg);
+}
+
+/*------------------------------------------------
+Shop
+-----------------------------------------------*/
+
+.shop {
+    background: #070f2a;
+    margin-top: 40px;
+}
+
+.shop .left-col {
+	margin-right: 40px;
+}
+
+.shop h2 {
+    margin-bottom: 16px;
+}
+
+.shop h3 {
+	font-size: 20px;
+}
+
+.shop li {
+    background: #fff;
+    margin: 50px 20px 50px;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+}
+
+.shop a {
+	color: #364472
+}
+
+.shop img {
+	width: 85%;
+	height: auto;
+    margin-bottom: 20px;
+    transition: all 0.35s ease;
+}
+
+.shop img:hover {
+	width: 90%;
+}
+
+.shop .wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*------------------------------------------------
+Location & Open Hours
+-----------------------------------------------*/
+
+.location .left {
+	padding: 40px 0 40px 170px;
+}
+
+.location .right {
+	padding: 40px 170px 40px 0;
+}
+
+.location .text-col {
+    padding: 120px 60px;
+    min-height: 420px;
+    flex-direction: column;
+    justify-content: center;
+    background: #e4e5e9;
+}
+
+.location h3 {
+    margin-bottom: 22px;
+}
+
+.location address {
+	font-style: normal;
+}
+
+.location .row-1 {
+    margin-top: 40px;
+}
+
+.location .img-1 {
+    background-image: url(../images/front.jpeg);
+}
+
+.location .img-2 {
+    background-image: url(../images/open.jpeg);
+}
+
+.location .right p {
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------------
+Gallery
+-----------------------------------------------*/
+
+.gallery .img-col {
+	height: 20vw;
+	margin: 40px 20px 40px;
+}
+
+.gallery .img-1 {
+	margin-left: 20px;
+}
+
+.gallery .img-1 {
+	background-image: url(../images/gallery-1.jpeg);
+}
+
+.gallery .img-2 {
+	background-image: url(../images/gallery-2.jpeg);
+}
+
+.gallery .img-3 {
+	background-image: url(../images/gallery-3.jpeg);
+}
+
+.gallery .img-4 {
+	background-image: url(../images/gallery-4.jpeg);
+}
+/*------------------------------------------------
+Footer
+-----------------------------------------------*/
+
+.footer {
+	background: #070f2a;
+	margin-top: calc(20vw + 120px);
+	padding: 60px;
+}
+
+.footer img {
+	width: 70px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.footer ul {
+	margin: 25px 0 50px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer .nav-col p {
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
+

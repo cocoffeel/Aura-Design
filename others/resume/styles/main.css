@@ -1,0 +1,326 @@
+/*------------------------------------------------
+Global Styles
+-----------------------------------------------*/
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #58666e;
+	line-height: 1.8;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #363636;
+}
+
+h3 {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.is-flex {
+	display: flex;
+}
+
+.is-flex-half {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+
+.is-flex-third {
+	flex-basis: 28%;
+	max-width: 28%;
+}
+
+.is-center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.is-white {
+	color: #fff;
+}
+
+.is-grey {
+	background: #F0F0F0;
+	margin: 20px 40px 0 0;
+}
+
+.is-blue {
+	background: #5476A9;
+}
+
+.is-cyan {
+	background: #23C6EC;
+}
+
+.is-orange {
+	background: #ff6600;
+}
+
+.is-green {
+	background: #63AD68;
+}
+
+a {
+	text-decoration: none;
+	color: #363636;
+}
+
+img {
+	width: 100%;
+}
+
+.section-title {
+	margin: 95px 30px 60px;
+	border-top: 1px solid #8b969b;
+}
+
+.section-title h2 {
+	position: relative;
+	border: 2px solid #07cb79;
+	padding: 10px 30px;
+	margin-top: -27px;
+	background: #fff;
+}
+
+.left-margin {
+	margin-left: 60px;
+}
+
+/*------------------------------------------------
+Global Navigation
+-----------------------------------------------*/
+
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-resume: 3;
+}
+
+.header {
+	background: #2f3742;
+    height: 60px;
+}
+
+.gn li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.gn a {
+	color: #fff;
+}
+
+.gn .active {
+	background: #07cb79;
+	padding: 21px 10px;
+}
+
+/*------------------------------------------------
+Banner
+-----------------------------------------------*/
+
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner .overlay {
+    background: rgba(0,0,0,0.62);
+    height: 350px;
+	text-align: left;
+	margin-top: 60px;
+}
+
+.banner p {
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+/*------------------------------------------------
+About
+-----------------------------------------------*/
+
+.about .img-holder {
+	flex-basis: 25%;
+	max-width: 25%;
+	margin-right: 40px;
+}
+
+.profile-right {
+	flex-basis: 70%;
+	max-width: 70%;
+}
+
+.profile-right li {
+	margin-bottom: 36px;
+	align-items: center;
+	font-size: 17px;
+}
+
+.profile-right .profile-content {
+	margin-left: 20px;
+}
+
+.profile-grid img {
+	width: 58px;
+}
+
+.social-list li {
+	display: inline-block;
+	width: 30px;
+	margin-left: 25px;
+}
+
+/*------------------------------------------------
+Skills
+-----------------------------------------------*/
+
+.skills .is-flex {
+	height: 35px;
+	padding: 0 15px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.skills .skill-1 {
+	width: 75%;
+}
+
+.skills .skill-2 {
+	width: 75%;
+}
+
+.skills .skill-3 {
+	width: 80%;
+}
+
+.skills .skill-4 {
+	width: 97%;
+}
+
+.skills .skill-5 {
+	width: 80%;
+}
+
+.skills .skill-6 {
+	width: 75%;
+}
+
+.skills .skill-7 {
+	width: 95%;
+}
+
+.skills .skill-8 {
+	width: 85%;
+}
+
+/*------------------------------------------------
+Experience
+-----------------------------------------------*/
+
+.experience > ul {
+	width: 80%;
+}
+
+.experience > ul > li {
+	padding: 25px;
+	border: 1px solid #d7dee2;
+}
+
+.experience .nest {
+	padding-left: 20px;
+}
+
+.experience .nest li {
+	list-style: disc;
+}
+
+.experience .company {
+	flex-basis: 10%;
+	max-width: 10%;
+}
+
+.experience .work {
+	flex-basis: 55%;
+	max-width: 55%;
+	margin: 0 10%;
+	text-align: left;
+}
+
+.experience .work h3 {
+	margin-bottom: 16px;
+}
+
+.experience .time {
+	flex-basis: 15%;
+	max-width: 15%;
+	color: #348a48;
+	background: #bbe9c6;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+/*------------------------------------------------
+Portfolio
+-----------------------------------------------*/
+
+.portfolio li {
+	margin-bottom: 45px;
+}
+
+.portfolio .middle {
+	margin: 0 45px;
+}
+
+/*------------------------------------------------
+Get in touch
+-----------------------------------------------*/
+
+.contact img {
+	padding: 30%;
+}
+
+.contact .is-flex-third {
+	padding: 0 40px 40px;
+	border: 1px solid #d7dee2;
+}
+
+.contact .col-2 {
+	margin: 0 5%;
+}
+
+.contact {
+	margin-bottom: 45px;
+}
+
+/*------------------------------------------------
+Footer
+-----------------------------------------------*/
+
+.footer {
+	background: #2f3742;
+    height: 60px;
+}
+
+.footer a {
+	color: #07cb79;
+}
