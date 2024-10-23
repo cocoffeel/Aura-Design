@@ -444,7 +444,7 @@ Header
   position: relative;
   white-space: nowrap;
   &:after {
-    --deco-height: 0.3125em;
+    --deco-height: 0.4em;
     content: "";
     position: absolute;
     left: 0;
