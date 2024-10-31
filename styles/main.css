@@ -194,6 +194,48 @@ h4 {
 
 /*
 |------------------------------------------
+|  Video
+|------------------------------------------
+*/
+/* Style the video: 100% width and height to cover the entire window */
+/*
+#video-1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+/*
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+/*
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+/*
+|------------------------------------------
 |  The Grid
 |------------------------------------------
 */
@@ -365,15 +407,17 @@ Header
 .nav-1 > a {
 	text-transform: uppercase;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 450;
 }
 
 .gn .nav-1 {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
+	color: #333333;
 }
 
 .gn .nav-2 {
 	margin: 10px 0;
+	font-weight: 350;
 }
 
 .gn a {
@@ -385,7 +429,7 @@ Header
 }
 
 .gn .active {
-	color: #1b1b1b;
+	color: #018e83;
 }
 
 .header .social {
@@ -480,6 +524,10 @@ Header
 
 .proj-6 {
     background-image: url(../images/proj-6/proj-6.jpg);
+}
+
+.proj-7 {
+    background-image: url(../images/proj-7/proj-7.jpg);
 }
 
 
@@ -600,6 +648,15 @@ Gallery
 .gall-6 {
     background-image: url(../images/gallery/gall-6.jpg);
 }
+.gall-7 {
+    background-image: url(../images/gallery/gall-7.jpg);
+}
+.gall-8 {
+    background-image: url(../images/gallery/gall-8.jpg);
+}
+.gall-9 {
+    background-image: url(../images/gallery/gall-9.jpg);
+}
 
 /*------------------------------------------------
 Contact
@@ -664,12 +721,14 @@ Project Page
 }
 
 .right .bullet {
+	margin-top: 5px;
 	margin-bottom: 5px;
+	padding-left: 20px;
 }
 
 .right .bullet li {
 	list-style: circle;
-	list-style-position: inside;
+	list-style-position: outside;
 }
 
 .right .image-size-1 li{
@@ -1168,6 +1227,32 @@ Project 6
 }
 .proj-6-18 {
     background-image: url(../images/proj-6/proj-6-18.jpg);
+}
+
+/*------------------------------------------------
+Project 7
+-----------------------------------------------*/
+
+.proj-7-1 {
+    background-image: url(../images/proj-7/proj-7-1.jpg);
+}
+.proj-7-2 {
+    background-image: url(../images/proj-7/proj-7-2.jpg);
+}
+.proj-7-3 {
+    background-image: url(../images/proj-7/proj-7-3.jpg);
+}
+.proj-7-4 {
+    background-image: url(../images/proj-7/proj-7-4.jpg);
+}
+.proj-7-5 {
+    background-image: url(../images/proj-7/proj-7-5.jpg);
+}
+.proj-7-6 {
+    background-image: url(../images/proj-7/proj-7-6.jpg);
+}
+.proj-7-7 {
+    background-image: url(../images/proj-7/proj-7-7.jpg);
 }
 
 /*------------------------------------------------
