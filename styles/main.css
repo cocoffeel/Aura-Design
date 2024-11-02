@@ -1174,6 +1174,10 @@ Project 6
 	margin-top: 10px;
 }
 
+.project-6 .text strong {
+	font-weight: 400;
+}
+
 .proj-6-1 {
     background-image: url(../images/proj-6/proj-6-1.jpg);
 }
