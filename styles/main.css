@@ -11,7 +11,7 @@ body {
 }
 
 .theme-wrapper {
-	max-width: 1400px;
+	max-width: 1680px;
 	margin: 30px auto;
 }
 
@@ -710,7 +710,7 @@ Project Page
 }
 
 .bnr-right {
-	padding: 35px 50px 30px 20px;
+	padding: 35px 50px 30px 30px;
 }
 
 .bnr-right p {
@@ -718,7 +718,7 @@ Project Page
 }
 
 .right .text {
-	margin: 30px 120px;
+	margin: 30px 220px;
 }
 
 .right .text h2 {
@@ -737,35 +737,35 @@ Project Page
 }
 
 .right .image-size-1 li{
-	height: 290px;
+	height: 348px;
 }
 
 .right .image-size-1 .img-col {
-	height: 290px;
+	height: 348px;
 }
 
 .right .image-size-2 li{
-	height: 450px;
+	height: 540px;
 }
 
 .right .image-size-2 .img-col {
-	height: 450px;
+	height: 540px;
 }
 
 .right .image-size-3 li{
-	height: 550px;
+	height: 660px;
 }
 
 .right .image-size-3 .img-col {
-	height: 550px;
+	height: 660px;
 }
 
 .right .image-size-4 li{
-	height: 750px;
+	height: 900px;
 }
 
 .right .image-size-4 .img-col {
-	height: 750px;
+	height: 900px;
 }
 
 .next {
@@ -806,7 +806,7 @@ Project Page
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
 	.right .text {
-		margin: 30px 10%;
+		margin: 30px 15%;
 	}
 	.right .image-size-1 li{
 		height: 21vw;
