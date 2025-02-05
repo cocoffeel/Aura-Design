@@ -581,11 +581,15 @@ About
 
 .about-right {
 	padding-left: 40px;
-	margin-top: 30px;
+	margin-top: 40px;
+}
+
+.about-left {
+	margin-top: 20px;
 }
 
 .about-left p {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .about .skill {
