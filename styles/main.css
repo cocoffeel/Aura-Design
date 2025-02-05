@@ -116,10 +116,6 @@ h3 + p {
 	justify-content: left;
 }
 
-.button-center {
-	justify-content: center;
-}
-
 .btn {
 	margin-top: 10px;
 	padding: 5px 16px;
