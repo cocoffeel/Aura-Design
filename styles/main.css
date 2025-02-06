@@ -170,6 +170,7 @@ h1 {
 	font-weight: 400;
 	font-size: 30px;
 	color: #393939;
+	margin-bottom: 5px;
 }
 
 h2 {
@@ -478,13 +479,18 @@ Header
 */
 
 .hi {
-	margin-top: 10px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.hi h1 {
+	font-size: 45px;
+	font-weight: 450;
 }
 
 .hi h3 {
-	font-size: 17px;
-	font-weight: 300;
+	font-size: 20px;
+	font-weight: 400;
 	line-height: 2;
 }
 
