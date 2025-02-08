@@ -668,6 +668,12 @@ Gallery
 .gall-9 {
     background-image: url(../images/gallery/gall-9.jpg);
 }
+.gall-10 {
+    background-image: url(../images/gallery/gall-10.jpg);
+}
+.gall-11 {
+    background-image: url(../images/gallery/gall-11.jpg);
+}
 
 /*------------------------------------------------
 Contact
@@ -1694,8 +1700,13 @@ Gallery - Image Preview
 
 a.lightbox-close {
 	display: block;
-	width:50px;
-	height:50px;
+	top: 0;
+	left:0;
+	right:0;
+	bottom: 0;
+	position: absolute;
+}
+	/*
 	box-sizing: border-box;
 	background: white;
 	color: black;
@@ -1706,7 +1717,7 @@ a.lightbox-close {
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
-
+/*
 a.lightbox-close:before {
 	content: "";
 	display: block;
@@ -1723,7 +1734,7 @@ a.lightbox-close:before {
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
-
+/*
 a.lightbox-close:after {
 	content: "";
 	display: block;
@@ -1738,6 +1749,7 @@ a.lightbox-close:after {
 	-o-transform:rotate(-45deg);
 	transform:rotate(-45deg);
 }
+
 
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
